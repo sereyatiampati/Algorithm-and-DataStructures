@@ -36,8 +36,9 @@
 
 //Method 4: using reduce method
 function reverse(str) {
+    debugger;
     return str.split('').reduce((rev, char) => char + rev, '');
 } 
 
 module.exports = reverse;
-console.log(reverse("apple"));
+reverse("apple");

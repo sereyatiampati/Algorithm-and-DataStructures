@@ -7,6 +7,7 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
+	//Method 1: Using reverse
 // function palindrome(str) {
 //    return str.split("").reverse().join("") == str
 // }
